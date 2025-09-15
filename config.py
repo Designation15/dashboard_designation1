@@ -6,12 +6,12 @@ et les données statiques utilisées à travers l'application.
 import pandas as pd
 
 # --- URLs des Google Sheets ---
-RENCONTRES_URL = "https://docs.google.com/spreadsheets/d/1I8RGfNNdaO1wlrtFgIOFbOnzpKszwJTxdyhQ7rRD1bg/export?format=xlsx"
-DISPO_URL = "https://docs.google.com/spreadsheets/d/16-eSHsURF-H1zWx_a_Tu01E9AtmxjIXocpiR2t2ZNU4/export?format=xlsx"
+RENCONTRES_URL = "https://docs.google.com/spreadsheets/d/1Y5ocs0vurOKASiIRFw9CF5ZN-7eOeuggfIPWppaeyDs/export?format=xlsx"
+DISPO_URL = "https://docs.google.com/spreadsheets/d/1WBPcRhxhCnpJmdEiImryj2reDYY8hOKd-X-fQLXV4F8/export?format=xlsx"
 ARBITRES_URL = "https://docs.google.com/spreadsheets/d/1bIUxD-GDc4V94nYoI_x2mEk0i_r9Xxnf02_Rn9YtoIc/export?format=xlsx"
 CLUB_URL = "https://docs.google.com/spreadsheets/d/1GLWS4jOmwv-AOtkFZ5-b5JcjaSpBVlwqcuOCRRmEVPQ/export?format=xlsx"
-DESIGNATIONS_URL = "https://docs.google.com/spreadsheets/d/1gaPIT5477GOLNfTU0ITwbjNK1TjuO8q-yYN2YasDezg/export?format=xlsx"
-RENCONTRES_FFR_URL = "https://docs.google.com/spreadsheets/d/1ViKipszuqE5LPbTcFk2QvmYq4ZNQZVs9LbzrUVC4p4Y/export?format=xlsx"
+DESIGNATIONS_URL = "https://docs.google.com/spreadsheets/d/1QtYjLVg0IQ2i_hjmOjVBCFwCJKcfdugFj7UWVpGjQIk/export?format=xlsx"
+RENCONTRES_FFR_URL = "https://docs.google.com/spreadsheets/d/1JIQPfdyVCzQTauDWcH1DAHrs2daQqWpcYAfJVuQ_Jws/export?format=xlsx"
 
 # --- Fichier de clé de service ---
 SERVICE_ACCOUNT_FILE = 'designation-cle.json'
