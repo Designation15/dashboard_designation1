@@ -170,7 +170,7 @@ def display_data_tiles():
 
 # --- Configuration de la page et initialisation ---
 st.set_page_config(
-    page_title="Aide à la Désignation d'Arbitres",
+    page_title="Aide à la Désignation d'Arbitres - D1",
     page_icon="🏉",
     layout="wide"
 )
