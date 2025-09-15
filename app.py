@@ -178,7 +178,7 @@ st.set_page_config(
 initialize_data()
 
 # --- Interface Principale ---
-st.title("Bienvenue dans l'outil d'aide à la désignation d'arbitres")
+st.title("Bienvenue dans l'outil d'aide à la désignation d'arbitres - D1")
 st.write("Utilisez le menu sur la gauche pour naviguer entre les différentes pages.")
 
 # Afficher les tuiles d'information sur les données
