@@ -139,7 +139,10 @@ def load_static_competitions():
             'Réserves Régionales 2 - Championnat Territorial', 'Réserves Régionales 3 - Championnat Territorial',
             'Championnat Territorial des Clubs + 18 ans Féminin à 7', 
             'Championnat Territorial des Clubs - 18 ans Féminin à 7',
-            'Féminines Moins de 18 ans à XV - ACCES'
+            'Féminines Moins de 18 ans à XV - ACCES',
+            'Féminines Régionales à X « moins de 18 ans » - Championnat territorial',
+            'Régional 1 U19 - Championnat territorial',
+            'Régional 1 U16 - Championnat territorial'
         ],
         'NIVEAU MIN': [
             6, 7, 7, 6, 6, 1, 9, 6, 7, 8, 9, 
@@ -147,7 +150,7 @@ def load_static_competitions():
             15, 10, 15, 13, 15, 13, 
             9, 11, 13, 
             7, 11, 13, 15,
-            13, 15,15
+            13, 15,15,15,15,15
         ],
         'NIVEAU MAX': [
             4, 6, 6, 4, 4, 1, 7, 6, 7, 8, 7, 
@@ -155,7 +158,7 @@ def load_static_competitions():
             9, 9, 9, 9, 9, 9, 
             7, 9, 9, 
             9, 9, 11, 9,
-            9, 9,9
+            9, 9,9,9,9,9
         ]
     }
     return pd.DataFrame(competitions_data)
